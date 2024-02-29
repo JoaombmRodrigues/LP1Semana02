@@ -11,6 +11,9 @@ namespace SmoothOperator
             string response = Console.ReadLine();
             //convert string to byte
             byte n = byte.Parse(response);
+            //print results
+            Console.WriteLine(--n);
+            Console.WriteLine(++n);
         }
     }
 }
