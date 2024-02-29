@@ -12,6 +12,10 @@ namespace Cilindro
             //ask user for radius
             Console.Write("Insira um raio para um cilindro: ");
             string raio = Console.ReadLine();
+            //convert the variables to floats
+            float a = float.Parse(altura);
+            float r = float.Parse(raio);
+            
         }
     }
 }
