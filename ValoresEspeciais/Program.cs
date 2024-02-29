@@ -72,6 +72,14 @@ namespace ValoresEspeciais
             //decimal
             Console.WriteLine
             ($"decimal max: {decimalmax}, decimal min: {decimalmin}");
+
+            //infinite and NaN
+            float posinfinite = float.PositiveInfinity;
+            float neginfinite = float.NegativeInfinity;
+            double notanumber = double.NaN;
+            Console.WriteLine
+            ($"+infinity: {posinfinite}, -infinity: {neginfinite}");
+            Console.WriteLine($"Not a Number: {notanumber}");
         }
     }
 }
