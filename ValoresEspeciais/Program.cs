@@ -80,6 +80,10 @@ namespace ValoresEspeciais
             Console.WriteLine
             ($"+infinity: {posinfinite}, -infinity: {neginfinite}");
             Console.WriteLine($"Not a Number: {notanumber}");
+
+            //overflows and underflows
+            uint uintmax2 = ushort.MaxValue;
+            Console.WriteLine((ushort)(uintmax2+1));
         }
     }
 }
