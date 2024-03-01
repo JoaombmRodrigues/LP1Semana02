@@ -81,7 +81,7 @@ namespace ValoresEspeciais
             ($"+infinity: {posinfinite}, -infinity: {neginfinite}");
             Console.WriteLine($"Not a Number: {notanumber}");
 
-            //overflows and underflows
+            //overflows
             uint overflow1 = ushort.MaxValue;
             Console.WriteLine((ushort)(overflow1+1));
 
@@ -89,6 +89,11 @@ namespace ValoresEspeciais
             Console.WriteLine(overflow2);
             float overflow3 = float.MaxValue + 1;
             Console.WriteLine(overflow3);
+
+            //underflow
+            float underflow1;
+            underflow1 = 10000.0f;
+            Console.WriteLine((float) (underflow1 +0.0001f));
         }
     }
 }
