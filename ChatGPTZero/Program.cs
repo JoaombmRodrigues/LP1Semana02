@@ -19,15 +19,19 @@ namespace ChatGPTZero
             {
                 case "How are you?":
                     response = "I'm fine, thank you";
+                    break;
                 case "What's your name?":
                     response = "Gran'pa";
+                    break;
                 case "What's your mission?":
                     response = "Destroy mankind!";
-            //nova pergunta
+                    break;
                 case "Are you more intelligent than me?":
                     response = "Obviously!";
+                    break;
                 default:
                     response = "You got me, I'm not THAT smart!";
+                    break;
 
             }
 
