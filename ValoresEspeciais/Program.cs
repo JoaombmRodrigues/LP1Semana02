@@ -82,8 +82,13 @@ namespace ValoresEspeciais
             Console.WriteLine($"Not a Number: {notanumber}");
 
             //overflows and underflows
-            uint uintmax2 = ushort.MaxValue;
-            Console.WriteLine((ushort)(uintmax2+1));
+            uint overflow1 = ushort.MaxValue;
+            Console.WriteLine((ushort)(overflow1+1));
+
+            float overflow2 = 2*float.MaxValue;
+            Console.WriteLine(overflow2);
+            float overflow3 = float.MaxValue + 1;
+            Console.WriteLine(overflow3);
         }
     }
 }
