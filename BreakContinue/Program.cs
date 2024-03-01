@@ -23,7 +23,11 @@ namespace BreakContinue
                 {
                     continue;
                 }
-
+                //skip number 10
+                if (turn == 10)
+                {
+                    continue;
+                }
                 // Print turn number
                 Console.WriteLine($"Turn number {turn}");
             }
